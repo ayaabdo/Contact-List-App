@@ -26,7 +26,6 @@ class Contact{
     contactName()
     {
         const nameArr  = this.name.split(' ');
-        //console.log(nameArr[0].charAt(0));
         var showedName = nameArr[0].charAt(0).toUpperCase()+'.';
         for(let i = 1;i < nameArr.length;++i){
             showedName += nameArr[i];

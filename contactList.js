@@ -109,7 +109,6 @@ function getUpdatedData(id)
     var inputs = document.getElementsByTagName("input");
     var tr = document.getElementById(`${id}`).childNodes;
     
-    //console.log(tr.length);
     for(let i = 0;i < inputs.length-1;++i)
             inputs[i].value = '';
 
