@@ -1,0 +1,60 @@
+body{
+    /* margin: auto; */
+    /* text-align: center; */
+    /* background-color: white; */
+    background: url("contact.jpg");
+    background-size: 100%;
+
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.my-div{
+    display: inline-block;
+    margin: 5%;
+    width: 20%;
+    text-align: center;
+}
+.my-div .lbl{
+    display: inline-block;
+    /* vertical-align:top; */
+    /* padding-bottom: 10%; */
+    color: white;
+    font-size: larger;
+}
+#btn{
+    position: right;
+    border-radius: 15px;
+    width: 120px;
+    height: 50px;
+   background-color: green;
+   color: white;
+   text-align: center;
+   font-size: larger;
+}
+table{
+    width: 700px;
+    border: 1px solid white;
+    margin: auto;
+    font-size: larger;
+    color: white;
+    text-align: center;
+}
+#addbtn{
+    width: 40px;
+    height: 30px;
+    margin-left: 27%;
+    background-color: orange;
+    color: white;
+    font-size: larger;
+    border: orange;
+}
+.action-button{
+    width:40px;
+    height: 40px;
+}
+.action-button img{
+    width: 100%;
+    height: 100%;
+}
