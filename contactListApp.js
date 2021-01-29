@@ -6,6 +6,7 @@ var parent = document.getElementById("error-messages");
 var contactList = new ContactList();
 
 submitButton.addEventListener("click",function(e){
+        errorExists = false;
         e.preventDefault();
         if(flag === "insert"){
             parent.textContent = '';
